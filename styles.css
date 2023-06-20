@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #f8f8f8;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  padding: 20px;
+}
+
+section h2 {
+  color: #2c3e50;
+}
+
+section ul {
+  list-style-type: none;
+}
+
+footer {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
