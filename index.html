@@ -14,7 +14,7 @@
         <div class="card mt-4">
           <img class="card-img-top" src="profile_picture.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Dr. XYZ</h5>
+            <h5 class="card-title">Andrew Caunes - PhD student</h5>
             <p class="card-text">Status</p>
             <a href="#" class="card-link">LinkedIn</a>
             <a href="#" class="card-link">GitHub</a>
@@ -24,27 +24,45 @@
       </div>
       <!-- Main content section -->
       <div class="col-md-9">
-        <h1 class="mt-4">Dr. XYZ</h1>
+        <h1 class="mt-4">Andrew Caunes - PhD student</h1>
         <h3>Status</h3>
-        <ul class="nav nav-tabs">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item">
-            <a class="nav-link active" href="main.html">Home</a>
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="publications.html">Publications</a>
+            <a class="nav-link" id="publications-tab" data-toggle="tab" href="#publications" role="tab">Publications</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="talks.html">Talks</a>
+            <a class="nav-link" id="talks-tab" data-toggle="tab" href="#talks" role="tab">Talks</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="resume.html">Resume</a>
+            <a class="nav-link" id="resume-tab" data-toggle="tab" href="#resume" role="tab">Resume</a>
           </li>
         </ul>
-
-        <!-- Replace the following div's content with actual content for each page. -->
-        <div class="main-content mt-4">
-          <!-- This is just a placeholder. -->
-          <p>Content goes here...</p>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel">
+            <!-- Home content goes here. -->
+            <p>Summary...</p>
+            <p>News...</p>
+            <p>Recent publications...</p>
+          </div>
+          <div class="tab-pane fade" id="publications" role="tabpanel">
+            <!-- Publications content goes here. -->
+            <p>Publication 1...</p>
+            <p>Publication 2...</p>
+          </div>
+          <div class="tab-pane fade" id="talks" role="tabpanel">
+            <!-- Talks content goes here. -->
+            <p>Talk 1...</p>
+            <p>Talk 2...</p>
+          </div>
+          <div class="tab-pane fade" id="resume" role="tabpanel">
+            <!-- Resume content goes here. -->
+            <p>Education...</p>
+            <p>Experience...</p>
+            <p><a href="#">Link to PDF CV</a></p>
+          </div>
         </div>
       </div>
     </div>
