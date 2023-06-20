@@ -1,70 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Dr. XYZ's Research Page</title>
-  <link rel="stylesheet" href="styles.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Welcome to Dr. XYZ's Research Page</h1>
-    <h3>Deep Learning Researcher | University of ABC</h3>
-  </header>
-  
-  <nav>
-    <a href="#publications">Publications</a> | 
-    <a href="#projects">Projects</a> | 
-    <a href="#resume">Resume</a> | 
-    <a href="#contact">Contact</a>
-  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Sidebar/Profile section -->
+      <div class="col-md-3">
+        <div class="card mt-4">
+          <img class="card-img-top" src="profile_picture.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Dr. XYZ</h5>
+            <p class="card-text">Status</p>
+            <a href="#" class="card-link">LinkedIn</a>
+            <a href="#" class="card-link">GitHub</a>
+            <a href="#" class="card-link">Google Scholar</a>
+          </div>
+        </div>
+      </div>
+      <!-- Main content section -->
+      <div class="col-md-9">
+        <h1 class="mt-4">Dr. XYZ</h1>
+        <h3>Status</h3>
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" href="main.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="publications.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="talks.html">Talks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+        </ul>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Dr. XYZ is a deep learning researcher at the University of ABC. His research interests include artificial neural networks, machine learning, and computer vision.</p>
-  </section>
+        <!-- Replace the following div's content with actual content for each page. -->
+        <div class="main-content mt-4">
+          <!-- This is just a placeholder. -->
+          <p>Content goes here...</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <section id="publications">
-    <h2>Publications</h2>
-    <ul>
-      <li>
-        <strong>"Title of Publication 1"</strong>, Journal Name, Year
-        <a href="link_to_paper.pdf">[PDF]</a>
-      </li>
-      <li>
-        <strong>"Title of Publication 2"</strong>, Journal Name, Year
-        <a href="link_to_paper.pdf">[PDF]</a>
-      </li>
-      <!-- Add more publications as needed -->
-    </ul>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li>
-        <strong>Project 1:</strong> Brief description. <a href="project_link">[More]</a>
-      </li>
-      <li>
-        <strong>Project 2:</strong> Brief description. <a href="project_link">[More]</a>
-      </li>
-      <!-- Add more projects as needed -->
-    </ul>
-  </section>
-
-  <section id="resume">
-    <h2>Resume</h2>
-    <p>For more detailed information about my academic and professional background, please download my resume.</p>
-    <a href="resume.pdf">Download Resume</a>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: your-email@domain.com</p>
-    <p>LinkedIn: <a href="linkedin_link">linkedin.com/in/yourusername</a></p>
-    <p>GitHub: <a href="github_link">github.com/yourusername</a></p>
-  </section>
-
-  <footer>
-    <p>© 2023 Dr. XYZ. All rights reserved.</p>
-  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
